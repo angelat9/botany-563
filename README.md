@@ -1,3 +1,3 @@
 # botany-563
-this is an example file for Botany 563.
+this is a repository file for Botany 563.
 
