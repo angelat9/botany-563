@@ -331,3 +331,25 @@ PHYLIP-Alignment file created   [primatesAA-aligned.fasta]
 2/16/2022 8:32:31 PM
 
 ---------- 
+
+## Sequencing HW Part 2: Choosing your data and performing QC ##
+
+For my final project, I will be using genome data from the NCBI. Per se, I will not be using raw data. However, I will still be using Fast QC in order to have a better quality results. 
+
+### Running phyluce ###
+
+To install phyluce on Windows 10, I had to download Windows Subsystem for Linux (WSL) [instructions: https://docs.microsoft.com/en-us/windows/wsl/install]. 
+
+Steps to download the WSL (https://docs.microsoft.com/en-us/windows/wsl/install):
+1. Open the Command line, and then insert this command > wsl --install . 
+2. After the command run, I needed to restart my computer. 
+3. I found a problem while trying to download phyluce. It turns out I need to download Ubuntu to perform a Linux subsystem.
+One error that appeared was: "Error: 0x80370102 The virtual machine could not be started because a required feature is not installed." To correct this problem, I enabled Hyper-V support at BIOS Level by:
+	* Restarting the computer 
+	* I pressed F10, and waited for the BIOS level. 
+	* Go to systems configuration and enable Virtualization. 
+	* Then, save and exit. Reboot. 
+4. After I changed that, Ubuntu was able to run in my computer. 
+5. In order to make the installations easier, I installed Homebrew that allows me to install all the programs needed using the command line. I followed the instructions here: "https://www.how2shout.com/linux/how-to-install-brew-ubuntu-20-04-lts-linux/"
+6. Once I completed these steps, I followed the commands and instructions from notebook-log.md (https://github.com/crsl4/phylogenetics-class/blob/master/exercises/notebook-log.md)
+
