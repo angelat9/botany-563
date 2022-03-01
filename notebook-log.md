@@ -353,3 +353,14 @@ One error that appeared was: "Error: 0x80370102 The virtual machine could not be
 5. In order to make the installations easier, I installed Homebrew that allows me to install all the programs needed using the command line. I followed the instructions here: "https://www.how2shout.com/linux/how-to-install-brew-ubuntu-20-04-lts-linux/"
 6. Once I completed these steps, I followed the commands and instructions from notebook-log.md (https://github.com/crsl4/phylogenetics-class/blob/master/exercises/notebook-log.md)
 
+## Aligning the data ##
+
+As my project will be focusing on the similarity between species, I will be using T-coffee as it uses consistency-based and is a progressive alignment method. 
+
+Steps:
+
+- Install T-Coffee in Ubuntu (WSL system). I used the following commands:
+	- `$ sudo apt update`, Enter.
+	- Then, `$ sudo apt install t-coffee` and Enter.
+
+- After it got installed in Ubuntu, I was able to detect if T-Coffee was installed by using `$ t_coffee -version`. This was the message that shows that the program was successfully installed: `PROGRAM: T-COFFEE Version_12.00.7fb08c2 (2018-12-11 09:27:12 - Revision 7fb08c2 - Build 211)`.
