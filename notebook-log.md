@@ -358,7 +358,20 @@ One error that appeared was: "Error: 0x80370102 The virtual machine could not be
 As my project will be focusing on the similarity between species, I will be using T-coffee as it uses consistency-based and is a progressive alignment method. 
 
 Steps:
+##### Using ClustalW #####
+1. I had to run the *ClustalW* through the terminal. 
 
+1. I have to look where the *ClustalW* was in the computer which was: `C:\Program Files (x86)\ClustalW2\clustalw2.exe`.
+I had to modify the path:
+`$ /c/ 'Program Files (x86)'/ClustalW2/clustalw2` -> without the `.exe` and the (`/`) not (`\`). 
+
+2. Once I had the path for *ClustalW2*, you need to go where the file is. For this time was: `"C:\Users\Angel\Downloads\Vcholerae1.fasta"`
+
+3. I was able to access it using the terminal, and once I was in that exact path, I run the following command: 
+`$ /c/'Program Files (x86)'/ClustalW2/clustalw2 -ALIGN -INFILE=Vcholerae1.fasta -OUTFILE=Vcholerae1-aligned.fasta -OUTPUT=PHYLIP`
+
+
+##### Using T-Coffee #####
 - Install T-Coffee in Ubuntu (WSL system). I used the following commands:
 	- `$ sudo apt update`, Enter.
 	- Then, `$ sudo apt install t-coffee` and Enter.
