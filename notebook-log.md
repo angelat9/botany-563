@@ -377,3 +377,126 @@ I had to modify the path:
 	- Then, `$ sudo apt install t-coffee` and Enter.
 
 - After it got installed in Ubuntu, I was able to detect if T-Coffee was installed by using `$ t_coffee -version`. This was the message that shows that the program was successfully installed: `PROGRAM: T-COFFEE Version_12.00.7fb08c2 (2018-12-11 09:27:12 - Revision 7fb08c2 - Build 211)`.
+BOB
+
+#Data Using ClustalW#
+1. Sequences:
+
+1. Alignment:
+	A. with ClustalW
+=== Started Clustal W at 4:40:34 PM ===
+Command: C:\Program Files (x86)\DNASTAR\Lasergene 17\MegAlignPro\tools/win64/clustalw2.exe -INFILE=input.fasta -OUTFILE=10812-output_.fasta -OUTPUT=FASTA -DNAMATRIX=IUB -GAPOPEN=10.0 -GAPEXT=0.2 -MAXDIV=30.0 -TRANSWEIGHT=0.5 -PWDNAMATRIX=IUB -PWGAPOPEN=10.0 -PWGAPEXT=0.1
+
+
+
+ CLUSTAL 2.1 Multiple Sequence Alignments
+
+
+Sequence format is Pearson
+Sequence 1: 0          14889 bp
+Sequence 2: 1          16208 bp
+Sequence 3: 2          16225 bp
+Sequence 4: 3          16228 bp
+Sequence 5: 4          20089 bp
+Sequence 6: 5          20331 bp
+Sequence 7: 6          15693 bp
+Sequence 8: 7          16258 bp
+Sequence 9: 8          15479 bp
+Sequence 10: 9          15744 bp
+Sequence 11: 10         15737 bp
+Sequence 12: 11         15733 bp
+Start of Pairwise alignments
+Aligning...
+
+Sequences (1:2) Aligned. Score:  61
+Sequences (1:3) Aligned. Score:  60
+Sequences (1:4) Aligned. Score:  61
+Sequences (1:5) Aligned. Score:  62
+Sequences (1:6) Aligned. Score:  63
+Sequences (1:7) Aligned. Score:  51
+Sequences (1:8) Aligned. Score:  51
+Sequences (1:9) Aligned. Score:  63
+Sequences (1:10) Aligned. Score:  64
+Sequences (1:11) Aligned. Score:  64
+Sequences (1:12) Aligned. Score:  63
+Sequences (2:3) Aligned. Score:  83
+Sequences (2:4) Aligned. Score:  88
+Sequences (2:5) Aligned. Score:  64
+Sequences (2:6) Aligned. Score:  73
+Sequences (2:7) Aligned. Score:  53
+Sequences (2:8) Aligned. Score:  52
+Sequences (2:9) Aligned. Score:  57
+Sequences (2:10) Aligned. Score:  56
+Sequences (2:11) Aligned. Score:  56
+Sequences (2:12) Aligned. Score:  56
+Sequences (3:4) Aligned. Score:  82
+Sequences (3:5) Aligned. Score:  63
+Sequences (3:6) Aligned. Score:  74
+Sequences (3:7) Aligned. Score:  53
+Sequences (3:8) Aligned. Score:  52
+Sequences (3:9) Aligned. Score:  57
+Sequences (3:10) Aligned. Score:  56
+Sequences (3:11) Aligned. Score:  56
+Sequences (3:12) Aligned. Score:  57
+Sequences (4:5) Aligned. Score:  64
+Sequences (4:6) Aligned. Score:  74
+Sequences (4:7) Aligned. Score:  53
+Sequences (4:8) Aligned. Score:  52
+Sequences (4:9) Aligned. Score:  58
+Sequences (4:10) Aligned. Score:  57
+Sequences (4:11) Aligned. Score:  57
+Sequences (4:12) Aligned. Score:  56
+Sequences (5:6) Aligned. Score:  55
+Sequences (5:7) Aligned. Score:  54
+Sequences (5:8) Aligned. Score:  52
+Sequences (5:9) Aligned. Score:  72
+Sequences (5:10) Aligned. Score:  71
+Sequences (5:11) Aligned. Score:  71
+Sequences (5:12) Aligned. Score:  72
+Sequences (6:7) Aligned. Score:  64
+Sequences (6:8) Aligned. Score:  62
+Sequences (6:9) Aligned. Score:  71
+Sequences (6:10) Aligned. Score:  70
+Sequences (6:11) Aligned. Score:  70
+Sequences (6:12) Aligned. Score:  69
+Sequences (7:8) Aligned. Score:  93
+Sequences (7:9) Aligned. Score:  52
+Sequences (7:10) Aligned. Score:  52
+Sequences (7:11) Aligned. Score:  52
+Sequences (7:12) Aligned. Score:  52
+Sequences (8:9) Aligned. Score:  51
+Sequences (8:10) Aligned. Score:  51
+Sequences (8:11) Aligned. Score:  51
+Sequences (8:12) Aligned. Score:  51
+Sequences (9:10) Aligned. Score:  84
+Sequences (9:11) Aligned. Score:  84
+Sequences (9:12) Aligned. Score:  84
+Sequences (10:11) Aligned. Score:  99
+Sequences (10:12) Aligned. Score:  86
+Sequences (11:12) Aligned. Score:  86
+Guide tree file created:   [C:\Users\Angel\AppData\Local\Temp\DNASTAR\MegAlignPro\Temp\10812_ClustalW-Alignment-Engine_e39ccec0-9915-43e7-8df4-d5bb801296d9_.MegAlignPro\input.dnd]
+
+There are 11 groups
+Start of Multiple Alignment
+
+Aligning...
+Group 1: Sequences:   2      Score:276483
+Group 2: Sequences:   3      Score:258053
+Group 3: Sequences:   4      Score:229909
+Group 4: Sequences:   2      Score:298718
+Group 5: Sequences:   3      Score:267943
+Group 6: Sequences:   4      Score:252858
+Group 7: Sequences:   5      Score:211953
+Group 8: Sequences:   6      Score:179136
+Group 9: Sequences:  10      Score:164799
+Group 10: Sequences:   2      Score:285546
+Group 11: Sequences:  12      Score:140421
+Alignment Score 2972481
+firstres = 1 lastres = 27378
+FASTA file created!
+
+Fasta-Alignment file created    [C:\Users\Angel\AppData\Local\Temp\DNASTAR\MegAlignPro\Temp\10812_ClustalW-Alignments_c8b81682-bc13-45ee-a327-3a43ffbcce06_.MegAlignPro\10812-output_.fasta]
+
+
+=== Ended Clustal W at 4:47:07 PM after 6.54 minutes ===
+
